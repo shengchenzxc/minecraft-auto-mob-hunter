@@ -1,0 +1,25 @@
+{
+  "name": "minecraft-auto-mob-hunter",
+  "version": "1.0.0",
+  "description": "自动寻怪导航脚本 - Minecraft Java版本自动化工具",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "minecraft",
+    "mineflayer",
+    "bot",
+    "auto",
+    "mob",
+    "hunter"
+  ],
+  "author": "shengchenzxc",
+  "license": "MIT",
+  "dependencies": {
+    "mineflayer": "^4.9.5",
+    "mineflayer-pathfinder": "^2.4.4",
+    "mineflayer-physics-util": "^1.3.0"
+  }
+}
